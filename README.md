@@ -21,3 +21,9 @@ Lists of cultivars
 * Lists of cultivars
 ```
 这段前面加了星号的文本，就可以粘贴回维基百科的文章中，成为一个无序列表。
+
+# 2. chapter7
+
+## 2.1 phoneAndEmail.py - 在剪贴板的文本中查找电话号码和E-mail地址
+
+在一篇长的网页或文章中，找出所有电话号码和邮件地址
