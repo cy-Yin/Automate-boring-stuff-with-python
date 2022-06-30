@@ -64,3 +64,13 @@ Lists of cultivars
 
 希望保存不同的版本，ZIP文件的文件名每次创建时都有所变化。例如AlsPythonBook_1.zip、AlsPythonBook_2.zip、AlsPythonBook_3.zip等等。
 
+# 5. chapter11
+
+## 5.1 search.py - 在Bing上查询前几项结果
+
+只要在命令行中输入查找主题，就能让计算机自动打开浏览器，并在新的选项卡中显示前面几项查询结果。
+
+下面是程序要做的事：
+- 从命令行参数中获取查询关键字。
+- 取得查询结果页面。
+- 为每个结果打开一个浏览器选项卡。
