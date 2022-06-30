@@ -57,3 +57,10 @@ Lists of cultivars
 下面是程序要做的事：
 - 检查当前工作目录的所有文件名，寻找美国风格的日期。
 - 如果找到，将该文件改名，交换月份和日期的位置，使之成为欧洲风格。
+
+## 4.2 backupToZip.py - 将一个文件夹备份到一个ZIP文件
+
+项目文件保存在程序当前文件夹chapter9/AlsPythonBook中。希望为整个文件夹创建一个ZIP文件，作为“快照”。
+
+希望保存不同的版本，ZIP文件的文件名每次创建时都有所变化。例如AlsPythonBook_1.zip、AlsPythonBook_2.zip、AlsPythonBook_3.zip等等。
+
