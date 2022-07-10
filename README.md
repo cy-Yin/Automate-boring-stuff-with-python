@@ -107,3 +107,14 @@ XKCD是一个流行的极客漫画网站，它符合结构：
 - 找出当前工作目录中的所有CSV文件。
 - 读取每个文件的全部内容。
 - 跳过第一行，将内容写入一个新的CSV文件。
+
+## 7.2 quickWeather.py - 取得当前的天气数据
+
+OpenWeatherMap.org提供了JSON格式的实时天气信息。
+
+可从页面 http://api.openweathermap.org/data/2.5/forecast/daily?q=```<Location>```&cnt=3 下载今后几天的天气预报，并以纯文本打印出来。其中 ```<Location>``` 是想知道天气的城市。
+
+该程序将执行以下操作：
+- 从命令行读取请求的位置。
+- 从OpenWeatherMap.org 下载JSON天气数据。
+- 将JSON数据字符串转换成Python的数据结构。
