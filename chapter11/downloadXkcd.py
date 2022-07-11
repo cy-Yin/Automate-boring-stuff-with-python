@@ -1,5 +1,5 @@
 #! python
-# downloadXkcd.py - Downloads every single XKCD comic.
+# Downloads every single XKCD comic.
  
 import requests, os, bs4
  
@@ -28,6 +28,7 @@ while not url.endswith('#'):
 		imageFile = open(os.path.join('chapter11/xkcd', os.path.basename(comicUrl)), 'wb')
 		for chunk in res.iter_content(100000):
 			imageFile.write(chunk)
+		imageFile.close()
  
 	# Get the Prev button's url.
 	prevLink = soup.select('a[rel="prev"]')[0]
