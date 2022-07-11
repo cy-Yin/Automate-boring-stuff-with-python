@@ -118,3 +118,13 @@ OpenWeatherMap.org提供了JSON格式的实时天气信息。
 - 从命令行读取请求的位置。
 - 从OpenWeatherMap.org 下载JSON天气数据。
 - 将JSON数据字符串转换成Python的数据结构。
+
+# 8. chapter15
+
+## 8.1 stopwatch.py - 秒表程序
+
+用Python写一个简单的秒表程序。
+
+该程序实现如下功能：
+- 记录从按下回车键开始，每次按键的时间，每次按键都是一个新的“单圈”。
+- 打印圈数、总时间和单圈时间。
