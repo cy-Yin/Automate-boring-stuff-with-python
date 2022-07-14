@@ -173,3 +173,7 @@ chapter11\downloadXkcd.py从XKCD网站下载所有的XKCD漫画。
 该程序实现：
 - 获得鼠标当前的xy坐标。
 - 当鼠标在屏幕上移动时，更新这些坐标。
+
+## 11.2 mouseNowNew.py - 扩展11.1中的mouseNow.py程序
+
+不仅给出鼠标当前位置坐标，也给出这个像素的RGB颜色。
