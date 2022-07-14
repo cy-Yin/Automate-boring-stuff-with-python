@@ -177,3 +177,13 @@ chapter11\downloadXkcd.py从XKCD网站下载所有的XKCD漫画。
 ## 11.2 mouseNowNew.py - 扩展11.1中的mouseNow.py程序
 
 不仅给出鼠标当前位置坐标，也给出这个像素的RGB颜色。
+
+## 11.3 formFiller.py - 自动填写表单
+
+假设在电子表格中有大量数据， 需要填写到 Google Docs 表单中。
+
+程序应该做到：
+- 点击表单的第一个文本字段。
+- 遍历表单，在每个输入栏键入信息。
+- 点击Submit按钮。
+- 用下一组数据重复这个过程。
